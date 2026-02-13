@@ -20,12 +20,12 @@
     <div class="form-container">
 
       <div class="form-title">
-        Register Email Address
+        Create your password: 
       </div>
 
       <form> 
-        <input type="email" name="email" placeholder="juandelacruz@gmail.com" required>
-        <button type="submit" id="send-otp">Send OTP</button>
+        <input  placeholder="********" required>
+        <button type="submit" id="password_value">ENTER</button>
 
         <div class="cancel-link">
           <a href="login.php">Cancel</a>

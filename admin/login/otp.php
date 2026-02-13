@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../assets/css/root.css">
   <link rel="stylesheet" href="../assets/css/login.css">
   <link rel="stylesheet" href="../assets/css/registration.css">
+   <link rel="stylesheet" href="../assets/css/otp.css">
 </head>
 
 <body>
@@ -19,19 +20,25 @@
 
     <div class="form-container">
 
-      <div class="form-title">
-        Register Email Address
-      </div>
+        <div class="form-title">
+            Enter OTP:
+        </div>
 
-      <form> 
-        <input type="email" name="email" placeholder="juandelacruz@gmail.com" required>
-        <button type="submit" id="send-otp">Send OTP</button>
+        <form class="otp-value">
+            <input name="otp" placeholder="#" required>
+            <input name="otp" placeholder="#" required>
+            <input name="otp" placeholder="#" required>
+            <input name="otp" placeholder="#" required>
+            <input name="otp" placeholder="#" required>
+            <input name="otp" placeholder="#" required>
+              
+        </form>
+        
+        <button type="submit" id="enter-otp">ENTER</button>
 
         <div class="cancel-link">
-          <a href="login.php">Cancel</a>
-        </div>
-      </form>
-
+            <a href="register.php">Cancel</a>
+            </div>
     </div>
     
 

@@ -40,6 +40,7 @@ body {
   margin-bottom: 10px;
 }
 
+
 .subtitle {
   font-size: 18px;
   color: var(--subtitle-color);
@@ -172,4 +173,5 @@ form button:hover {
     flex-direction: column;
   }
 }
+
 
